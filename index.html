@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>void-and-shell : 存在のトポロジー</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            width: 90%;
+            padding: 2rem;
+            border-left: 1px solid #333;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 300;
+            letter-spacing: 0.2em;
+            margin-bottom: 0.5rem;
+            color: #ffffff;
+        }
+        p.subtitle {
+            font-size: 1rem;
+            color: #888;
+            margin-bottom: 3rem;
+            letter-spacing: 0.1em;
+        }
+        .menu-list {
+            list-style: none;
+            padding: 0;
+        }
+        .menu-item {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #222;
+        }
+        .menu-item a {
+            text-decoration: none;
+            color: #4CAF50; /* 少しサイバーなグリーン */
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: 0.5rem;
+            transition: color 0.3s ease;
+        }
+        .menu-item a:hover {
+            color: #81C784;
+        }
+        .menu-item p {
+            color: #aaa;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>void-and-shell</h1>
+        <p class="subtitle">存在のトポロジー / Topology of Existence</p>
+
+        <ul class="menu-list">
+            <li class="menu-item">
+                <a href="sim-void.html">Experiment 01 : 単振動と円運動の交差 (Center Void)</a>
+                <p>存在が「無」に飲み込まれることを回避し、中心を空洞にしたまま外郭を形成する動的平衡のシミュレーション。</p>
+            </li>
+            <li class="menu-item">
+                <a href="sim-lattice.html">Experiment 02 : 格子拘束の可視化 (Lattice Grid)</a>
+                <p>双極（プラス・マイナス）によって区切られた座標空間の拘束性と、そこから生じる「特異点としてのゼロ」の表現。</p>
+            </li>
+            <!-- 今後シミュレーションが増えたら、ここに <li> を追加していきます -->
+        </ul>
+    </div>
+</body>
+</html>
